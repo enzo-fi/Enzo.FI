@@ -42,32 +42,46 @@
   <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="icon">
   <strong>enzofi16@outlook.com</strong>
 </a>
+<a href="mailto:enzofi16@outlook.com" class="email-link">
+  <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="icon">
+  <span class="email-text">enzofi16@outlook.com</span>
+</a>
 
 <style>
 .email-link {
-  font-weight: bold;
+  font-weight: bold; /* already bold – no change on hover */
   font-size: 1.1em;
-  color: #ffffff; /* Adjust to contrast with your background */
-  background-color: #1a1a1a; /* Or any color that makes it pop */
+  color: #ffffff;
+  background-color: #1a1a1a;
   padding: 10px;
   border-radius: 5px;
   display: inline-flex;
   align-items: center;
   gap: 8px;
   text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; /* smooth visual transition only */
 }
 
 .email-link:hover {
   background-color: #333333;
   color: #ffd700;
 }
+
 .icon {
   width: 20px;
   height: 20px;
 }
+
+.email-text {
+  display: inline-block;
+  width: 200px; /* optional: fixed width to prevent shifts */
+}
 </style>
+
+<p><b>Built with love for the blockchain world</b></p>
+        
         <p>&copy; 2025 Enzo.</p>
-        <p><u>Built with love for the blockchain world.</u></p>
+        
       </footer>
     </div>
   </div>
