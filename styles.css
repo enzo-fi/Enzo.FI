@@ -119,3 +119,21 @@ footer {
   font-size: 0.9rem;
   color: #ccc;
 }
+.email-link {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
