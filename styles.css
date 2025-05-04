@@ -136,3 +136,37 @@ email-link:hover {
   height: 20px;
   margin-right: 8px;
 }
+@keyframes backgroundColorChange {
+  0% { background-color: #1e1e1e; }
+  25% { background-color: #2c3e50; }
+  50% { background-color: #34495e; }
+  75% { background-color: #2c3e50; }
+  100% { background-color: #1e1e1e; }
+}
+
+body {
+  animation: backgroundColorChange 20s infinite;
+  transition: background-color 2s ease-in-out;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#about {
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
+body {
+  animation: backgroundColorChange 20s infinite;
+  transition: background-color 2s ease-in-out;
+}
+
+#about {
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
