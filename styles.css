@@ -127,9 +127,8 @@ footer {
   margin-top: 1rem;
   font-size: 1rem;
 }
-
-.email-link:hover {
-  text-decoration: underline;
+.email-link {
+  color: #00ffff; /* or your preferred color from above */
 }
 
 .icon {
