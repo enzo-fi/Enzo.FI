@@ -122,15 +122,15 @@ footer {
 .email-link {
   display: inline-flex;
   align-items: center;
-  color: #00ffff;
+  color: #fff;
   text-decoration: none;
   margin-top: 1rem;
   font-size: 1rem;
 }
-.email-link {
-  color: #00ffff; /* or your preferred color from above */
-}
 
+email-link:hover {
+  text-decoration: underline;
+}
 .icon {
   width: 20px;
   height: 20px;
